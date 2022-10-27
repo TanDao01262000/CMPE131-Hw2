@@ -1,0 +1,9 @@
+1. Does the change inside increment_int_a change the variable a after the function call?
+    It does not change the value fo the variable a after the function call.
+
+2. Does the change inside increment_int_b change the variable b after the function call?
+    The value of b will be changed.
+
+3. If they differ answer why? if not why not?
+    For variable a, the reason for that is integer is immutable type.
+    For variable b, it will be changed since it is an array, mutable type.
