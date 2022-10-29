@@ -14,7 +14,6 @@ def sort_dictionary(dict):
     for item in dict.items():
         new_dict[item[1][1]] = (item[0], item[1][0])
     sorted_key = sort_arr(list(new_dict.keys()))
-    print(sorted_key)
     res = []
     for key in sorted_key:
         res.append(new_dict[key])
