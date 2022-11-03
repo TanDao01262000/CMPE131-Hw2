@@ -5,5 +5,5 @@
     The value of b will be changed.
 
 3. If they differ answer why? if not why not?
-    For variable a, the reason for that is integer is immutable type.
-    For variable b, it will be changed since it is an array, mutable type.
+    For variable a, the reason for that is integer is immutable type, which passed to the function by value.
+    For variable b, it will be changed since it is an array which passed by reference to the function, or mutable type.
