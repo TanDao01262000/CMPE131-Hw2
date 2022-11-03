@@ -48,7 +48,7 @@ def calculator(str):
             idx += 1
 
         oper_dict[sign](stack, num)
-        return sum(stack)
+        return float(sum(stack))
     except Exception as e:
         return f'Errors "{e}" has occurred. '
 
